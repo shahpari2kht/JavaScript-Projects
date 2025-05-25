@@ -1,1 +1,56 @@
+body {
+    background: linear-gradient(120deg, #94179E 0%, #00F09F 100%);
+    font-family: Shabnam, Tahoma, sans-serif;
+    color: #fff;
+    min-height: 100vh;
+}
+
+.tictoc-wrapper {
+    width: 330px;
+    margin: 40px auto;
+    background: rgba(255,255,255,0.11);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(148,23,158,0.19);
+    display: grid;
+    gap:10px;
+    padding: 30px 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.col-4 {
+    width: 90px;
+    height: 90px;
+    background: #F0EB00;
+    border-radius: 12px;
+    margin: 3px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 38px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.col-4 img { width:60px; height:60px; }
+
+.col-4:hover {
+    background: #F04300;
+}
+
+.player {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
+    text-shadow: 0 2px 12px #F00051cc;
+}
+.active {
+    background: #00F0C6;
+    color:#0c1f18;
+    padding: 0 10px;
+    border-radius: 7px;
+    margin:0 4px;
+}
+.score-playerCircle { color:#94179E; }
+.score-playerX { color:#F04300; }
 
