@@ -1,15 +1,17 @@
-# بازی دوز (Tic Tac Toe Game)
+# Tic-Tac-Toe | بازی دوز
 
-این پروژه پیاده‌سازی بازی دوز با جاوااسکریپت، HTML و CSS است.
-ویژگی‌ها:
-- دو نفره بودن بازی روی یک سیستم
-- شمارش امتیاز
-- ریست شدن خودکار پس از پایان بازی
+بازی تعاملی دوز (Tic-Tac-Toe) با HTML, CSS و JavaScript
 
-## اجرا
-۱. عکس‌های `Circle.jpg` و `x.png` را کنار فایل‌ها قرار دهید.  
-۲. فایل `index.html` را در مرورگر باز کنید.
+Interactive Tic-Tac-Toe game with HTML, CSS, and JavaScript
+
+## فایل‌ها | Files
+- `index.html` – صفحه اصلی  
+- `style.css` – استایل  
+- `tic-tac-toe.js` – منطق بازی  
+- `Circle.jpg` و `x.png` – تصاویر X و O
 
 ---
 
-**This is a simple Tic Tac Toe game using vanilla JavaScript.**
+## اجرا | How to Run
+1. `index.html` را در مرورگر باز کنید  
+2. با کلیک روی خانه‌ها بازی کنید
