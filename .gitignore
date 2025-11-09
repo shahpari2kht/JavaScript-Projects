@@ -1,0 +1,9 @@
+# Node/JS
+node_modules/
+*.log
+
+# General
+.DS_Store
+
+# Build artifacts
+dist/
